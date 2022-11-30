@@ -1,0 +1,37 @@
+{
+  "name": "rent-a-game",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@babel/core": {
+      "autoInstall": true
+    }
+  },
+  "dependencies": {
+    "@tanstack/react-query": "4.16.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.3",
+    "react-select": "5.6.1",
+    "vite-plugin-svgr": "2.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "@vitejs/plugin-react": "2.2.0",
+    "autoprefixer": "10.4.13",
+    "postcss": "8.4.19",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.6.4",
+    "vite": "3.2.3"
+  }
+}
